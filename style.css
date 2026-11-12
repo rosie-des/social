@@ -457,3 +457,18 @@ footer a:hover { color: var(--ink); }
 .notion figcaption { font-size: 14px; color: var(--ink-2); line-height: 1.5; }
 .notion figcaption b { color: var(--ink); }
 @media (max-width: 760px) { .notion { grid-template-columns: 1fr; } .notion figure:first-child { max-width: 420px; } }
+.profiles { display: grid; grid-template-columns: repeat(2, minmax(0, 340px)); gap: 24px; margin-top: 28px; align-items: start; }
+.profiles figure { margin: 0; display: grid; gap: 12px; }
+.profiles img { border-radius: 18px; border: 1px solid var(--rule); }
+.profiles figcaption { font-size: 14px; color: var(--ink-2); line-height: 1.5; }
+.profiles figcaption b { color: var(--ink); }
+.ig-mock { background: #fff; color: #111; border: 1px solid var(--rule); border-radius: 18px; padding: 22px 20px; font-family: -apple-system, "Segoe UI", system-ui, sans-serif; font-size: 14.5px; line-height: 1.45; display: grid; gap: 10px; }
+.ig-top { display: flex; gap: 16px; align-items: center; }
+.ig-top > div > b { font-size: 16px; }
+.ig-avatar { width: 64px; height: 64px; border-radius: 50%; background: #e9e4df; display: grid; place-items: center; font-family: var(--display); font-size: 26px; color: #7d726b; flex: none; }
+.ig-stats { display: flex; gap: 14px; margin-top: 4px; font-size: 13.5px; }
+.ig-cat { color: #737373; font-size: 13.5px; }
+.ig-dim { color: #737373; font-style: italic; }
+.ig-link { color: #3b5bdb; word-break: break-all; }
+.ig-note { margin-top: 4px; padding-top: 10px; border-top: 1px dashed #ddd; font-size: 12.5px; color: #c2185b; font-weight: 600; }
+@media (max-width: 560px) { .profiles { grid-template-columns: 1fr; max-width: 360px; } }
