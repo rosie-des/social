@@ -443,3 +443,11 @@ footer a:hover { color: var(--ink); }
 @media (max-width: 980px) { .shots { grid-template-columns: repeat(2, minmax(0,1fr)); } }
 .bar .track, .bar .fill { display: block; }
 .ph-row.narrow { max-width: 560px; }
+.slides3 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 8px; }
+.slides3 img:first-child { grid-column: 1 / -1; }
+.slides3 img { border-radius: 8px; border: 1px solid var(--rule); }
+.post .nums { gap: 22px 28px; }
+.pattern { margin-top: 24px; background: var(--card); border: 1px solid var(--accent); border-radius: 18px; padding: 28px; display: grid; gap: 12px; }
+.pattern .pill-label { justify-self: start; margin: 0; }
+.pattern h3 em { color: var(--accent); font-style: italic; }
+.pattern p:not(.pill-label) { color: var(--ink-2); max-width: 70ch; }
